@@ -1,0 +1,49 @@
+
+   This file thinks it is:    CHANGELOG in the SimpleSal/app-fsmDemo repository human metadata.
+
+=====================
+TruSoft Computing LLC
+
+    A description of our view of the release information, accumulated over Time, of:
+
+        SimpleSal App software, or, SimpleSal software
+
+=====================
+
+~~~~~~~~~~~~~~~~~~~~~ (delete after copying master)
+
+SimpleSal software component CHANGELOG Note Style Guide:
+
+ Each formal publication of a labeled version of software will describe the changes made.
+
+ All RELEASE notes are accumulated here, in reverse Time order, each time a release occurs.
+
+ Prepend the core contents of RELEASE at the top of this file each time a release occurs.
+
+~~~~~~~~~~~~~~~~~~~~~           (copied from RELEASE after master RELEASE published)
+
+ Changes to a repository have been published by SimpleSal:
+
+ GitHub username            SimpleSal
+
+  repository                example-repo
+
+    branch                  example-branch
+
+      label on branch       release-251230      (for example)
+
+ Date Published             December 30, 2025
+
+ TSCLLC Version Identifier  251230
+
+ Human version Identifier   v0.9a
+
+~~~~~~~~~~~~~~~~~~~~~
+
+    <copied this information from the RELEASE file for TSCLL Version 251230>
+
+~~~~~~~~~~~~~~~~~~~~~
+
+=====================
+
+ Copyright (c) 2025  TruSoft Computing LLC.  All Rights Reserved.
