@@ -1,99 +1,46 @@
 
+   This file thinks it is:  RELEASE in the SimpleSal/app-fsmDemo  repo root
 
-   This file believes that this file is:   RELEASE  in the repository root with the Blob
-   This file is expected to unique to the repository as it is metadata about the Blob.
+------------------------------------------
 
 =====================
+
 TruSoft Computing LLC
 
-        SimpleSal App software, or, SimpleSal software release information
+ S~S  RELEASE metadata: "SimpleSal Time and Event Management" software.
 
 =====================
 
-~~~~~~~~~~~~~~~~~~~~~                       (delete after copying master)
+ S~S Changes to a repository have been published by SimpleSal
 
-    A description of the content or changes included in THIS VERSION
-
-            tagged in a branch in a repository of:
-
-        SimpleSal App software, or, SimpleSal software
-
-A repository is only a vessel for managing a blob of content that changes over Time, as a blob.
-Version control tasks need a bridge between the software content and the blob containing it.
-
-    In the software content context, nobody cares about the repository blob.
-    In the repository context, nobody cares about the software content.
-
-The RELEASE document for each collection of coherent content inside a blob is that bridge.
-
-~~~~~~~~~~~~~~~~~~~~~
-
-=====================
-
-~~~~~~~~~~~~~~~~~~~~~
-
-SimpleSal software component RELEASE Note Style Guide (delete after copying master)
-
-~~~~~~~~~~~~~~~~~~~~~
-
- Each formal publication of a labeled version of software will describe the changes here.
- The content here is prepended to the official accumulation of all RELEASE files: CHANGELOG
-
- As stated above, the content is the bridge between the software content and the repository.
-  repository~based change documentation : correlate repository activities to a labeled version
-  source file~based change documentation : describe for a developer the software changes made
-
-~~~~~~~~~~~~~~~~~~~~~
-
- Each repository will have a specific instance of RELEASE, which willl change with each release.
-
-~~~~~~~~~~~~~~~~~~~~~
-
- The sequential numbering system chosen to identify unique versions is "the date of release".
- For the purposes of human discussion of features and complaints, a human version is used also.
-
-~~~~~~~~~~~~~~~~~~~~~
-
-=====================
-
-~~~~~~~~~~~~~~~~~~~~~           (modify the example after copying master)
-
- Changes to a repository have been published by SimpleSal:
+------------------------------------------
 
  GitHub username            SimpleSal
 
-   repository               example-repo
+   repository               app-fsmDemo
 
-     branch                 example-branch
+     branch                 main-app-fsmDemo
 
-       label on branch      release-251230      (for example)
+       label on branch      (none)
 
- Date of Publishment      Â  December 30, 2025
+ Date of Publishment        October 12, 2026
 
- TSCLLC Version Identifier  251230
+ TSC LLC Version Identifier 261012
 
  Human version Identifier   v0.9a
 
-~~~~~~~~~~~~~~~~~~~~~
+------------------------------------------
 
-    <copy this information to the CHANGELOG file for TSCLL Version 251230>
+ S~S  Release notes version 261012: app-fsmDemo repository activity: create the repository
 
-~~~~~~~~~~~~~~~~~~~~~
+------------------------------------------
 
- * expected: describe the content in a way useful to other participants in the organization
+    Instantiate the repository version control database from file system version control database.
 
- * possible: paste the descriptive information that was entered into the repository Application
-
- * intended: describe this version's relationship to other versions in the repository
-
-~~~~~~~~~~~~~~~~~~~~~
+------------------------------------------
 
 =====================
 
- Copyright (c) 2025  TruSoft Computing LLC.  All Rights Reserved.
 
-
-
-
-
+ Copyright (c) 2026  TruSoft Computing LLC.  All Rights Reserved.
 

@@ -1,123 +1,133 @@
 
-   This file thinks it is:    README  in the SimpleSal/app-fsmDemo repository human metadata.
+   This file thinks it is:    README  in the SimpleSal/app-fsmDemo repo root
 
-=====================
-TruSoft Computing LLC
-
-    A description of the purpose, organization, and content of software contained in the blob.
-
-        SimpleSal App software, or, SimpleSal software
+------------------------------------------
 
 =====================
 
-~~~~~~~~~~~~~~~~~~~~~
+  S~S The Elevator Pitch:   a demonstration and testing platform
 
-SimpleSal software component README style guide (delete after copying master)
+------------------------------------------
 
-~~~~~~~~~~~~~~~~~~~~~
+    This SimpleSal App implements the use of ssTEA and ssUI functionality to test and demonstrate.
 
-purpose of SimpleSal software existing in the first place:
-
-SimpleSal is software with an introductory level of sophistication, with respect to the user's abilities.
-The introduction is made through moderately complex software source code full of models and examples.
-
-~~~~~~~~~~~~~~~~~~~~~
-
-purpose of the software in this repository:
-
-* Support the educational goals of the SimpleSal ecosystem by providing free software source code.
-* Provide software source code of moderate complexity that can be broken, fixed, improved, abandoned.
-* Demonstrate the benefits and costs of serious software engineering tasks of moderate complexity.
-
-~~~~~~~~~~~~~~~~~~~~~
+------------------------------------------
 
 =====================
 
-~~~~~~~~~~~~~~~~~~~~~
+  S~S The purpose of the App:   app-fsmDemo
 
- contents of this repository:
+------------------------------------------
 
-~~~~~~~~~~~~~~~~~~~~~
+  Extensive documentation of app-fsmDemo can first be found within the files within the repo.
 
-* What happens in my workspace as a result of interacting with this repository?
+  The App purposefully was written to contain instances or examples of each type of ssTEA Event.
+  The App also serves as an implementation and test platform for each of the ssTEA/ssUI OPTIN choices.
 
-  * A design goal: any version of a SimpleSal App should work with any version of SimpleSal.
-  * The App and the SimpleSal directories contain a version from a branch of their repositories.
-  * The contents of the App's directory and the contents of SimpleSal are mutually exclusive.
-    The result: App repositories without a SimpleSal directory, a SimpleSal repository with no App.
+  Events are used together to implement FSMs whose only use or purpose is to demonstrate an idea.
 
-* for a non-SimpleSal App:   'the contents of the repository go into a directory with the name
-                               required by the user's IDE, for Arduino, the ".ino" file name.'
+  Resources are available to allow many Events to run simultaneous with the App.
 
-* for a SimpleSal App:       'the contents.........".ino" file name.'   Same as non-SimpleSal.
+    For example, 3 Events could be used to implement one-half of a network conversation, while
+    3 other Events could be used to implement the other half. Both halves think they are alone.
 
-* for the SimpleSal source:  'the contents, a SimpleSal directory, go into the App's directory.'
+    Both halves will run within app-fsmDemo, the network will exist of Data Events given Agency.
 
-~~~~~~~~~~~~~~~~~~~~~
+    When you write it.
 
-  * A design goal: no modifications to SimpleSal files are needed to modify the behavior or content.
-  * Modifying an App and SimpleSal at the same time is complex, and also what SimpleSal is made for.
-        Nothing in the repository organization blocks having both checked out at the same time.
-
-~~~~~~~~~~~~~~~~~~~~~
+------------------------------------------
 
 =====================
 
-~~~~~~~~~~~~~~~~~~~~~
+ S~S TruSoft Computing LLC (TSC LLC) Repository Philosophy
 
- directory tree structure:
+------------------------------------------
 
-~~~~~~~~~~~~~~~~~~~~~
+ S~S  The Philosophy is stated somewhere else.
 
-* User space for Arduino is a directory "App" containing the "SimpleSal" directory and "App.ino".
-  The Arduino IDE build environment expects a SimpleSal directory to be in each App's directory.
+   The SimpleSal/simplesal repo README explains how a SimpleSal App, such as this one, is constructed.
 
-~~~~~~~~~~~~~~~~~~~~~
+   There is additional information available on the "substack.com" site for user "SimpleSal".
 
-* the "SimpleSal" directory contains all of the software source code needed to use SimpleSal.
-
-~~~~~~~~~~~~~~~~~~~~~
-
-* the "ssTEA" subdirectory contains the software implementing Time and Event Agency (TEA).
-  the "ssUI" subdirectory contains the menu system that displays Time and Event information.
-  the "ssDocs" subdirectory contains documentation, each file is pointed to by source code files.
-  the "ssIO" subdirectory is independent of ssTEA and implements the virtualization of hardware.
-
-~~~~~~~~~~~~~~~~~~~~~
+------------------------------------------
 
 =====================
 
-~~~~~~~~~~~~~~~~~~~~~
+ S~S This Repository
 
- directory tree content:
+------------------------------------------
 
-~~~~~~~~~~~~~~~~~~~~~
+ S~S  What is the purpose of the objects in this repository or repo?
 
-  C~language source code at a "fundamental Kernighan and Ritchie C level"; also called "K\&R C".
-  The C software is intended to directly translate to processor~level instructions and capabilities.
-  The software is also going to be integrated into other languages and Hosts; we must begin at simple.
-  This is a complete implementation, with a dependency for Time and Ascii on the platform or host OS.
+    * provide an example of a self-contained moderately complex development environment
 
-~~~~~~~~~~~~~~~~~~~~~
+      * the transition from writing setup/loop Apps to writing RTOS or OS device drivers is a big one
 
-  SimpleSal configuration and platform portability is implemented in files with the extension ".start".
-  To begin using ssTEA, these files must be copied into the App user space and renamed as ".h" files.
-  The files do not neeed to be changed; the directions for bringing SimpleSal into the App expect ".h".
+      * many common data processing concepts are presented and implemented, waiting to be broken
 
-  The expectation is that the normal user will extend the basic Mesa abilities and reconfigure ssTEA.
-  The file system view of writability may remain from the SimpleSal directory clone from a repository.
-  Instructions can be found in each file directly; each file points to additional ssDocs documentation.
+    * There are build-time configurations with this App, and with ssTEA.  These variations are
+      concerned with the debug and App and ssTEA values displayed to the user via the serial port.
+      The RELEASE metadata does not describe the build/run-time changes.
 
-~~~~~~~~~~~~~~~~~~~~~
+------------------------------------------
 
-  There is ssDocs documentation specific to the architecture and implementation of ssTEA and ssUI as
-  a software component co~existing with the App.  For example, allocation of the database memory
-  for Event descriptors may be performed by the App or ssTEA; the App is free to take control and
-  replace ssTEA's static allocation algorithm with a dynamic allocation using malloc.  Try it.
+ S~S  What are the contents of this repository?
 
-~~~~~~~~~~~~~~~~~~~~~
+   * "rr\" means "repository root\"
+
+   * The managed object is everything, and only that, in the rr\app-fsmDemo\ directory
+
+       * there is no rr\app-fsmDemo\SimpleSal\      (in the App repo)
+
+          There is none because the directory rr\app-fsmDemo\App~SimpleSal
+          contains all configuration files either renamed and/or modified from SimpleSal.
+
+       * rr\app-fsmDemo\app-fsmDemo.ino             (Arduino main program)
+
+       * app-fsmDemo.ino makes #include references to these files:
+
+            * rr\app-fsmDemo\app_bpm_ino.h          (an App)
+
+            * rr\app-fsmDemo\app_cmd_ssUI.h         (ssUI commands launching Apps/Events)
+
+            * rr\app-fsmDemo\app_fifos_ino.h        (Data Events)
+
+            * rr\app-fsmDemo\app_mrb_ino.h          (Time Events)
+
+            * rr\app-fsmDemo\App~SimpleSal\*.*      (a variety of portability concerns)
+
+                mesa_Select*.*          support a build on multiple Arduino mesas
+                api_ssTEA_*.h           packaged API helper for ssTEA
+                mesa_fsmDemo_*.h        OPTIN to replace mesa minimum functionality
+                mesa_unor4wifi_LEDM.h   simple interface to LED Matrix
+                mesas_min_*.h           original mesa minimum functionality if not replaced
+                mesas_vocabulary.h      taking formality to the most extreme place possible
+                ss_cofiguration.h       fundamental document describing SimpleSal configuration
+                ss_RO_configuration.h   Co-existing software needs to take turns to resources
+
+------------------------------------------
+
+ S~S  What happens in my workspace as a result of interacting with this repository?
+
+    The managed object will be placed into your workspace, along with the human metadata files
+    (depending on your ability to configure the repo App to only consider files matching filters).
+
+    The only reason to have a metadata copy locally is if files are being modified for a release.
+    Readers still awake will realize the SimpleSal metadata about the directory content will
+    match the name and therefore overwrite a conventional software package's local metadata files.
+    This is a disadvantage resulting from TSC LLC separating the managed object into a subdirectory.
+
+------------------------------------------
+
+ S~S  What about the version of the SimpleSal software the App co-exists with?
+
+    This specific version of app-time is part of a coherent SimpleSal-wide release of software.
+
+    At a minimum, this SimpleSal App will build with any SimpleSal version
+        released as or released after "V1.0.0" of 2026/10/16.
+
+------------------------------------------
 
 =====================
 
- Copyright (c) 2025  TruSoft Computing LLC.  All Rights Reserved.
-
+ Copyright (c) 2026  TruSoft Computing LLC.  All Rights Reserved.
