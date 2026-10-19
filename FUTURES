@@ -1,42 +1,28 @@
 
-   This file believes that this file is:    FUTURES  in the repository root with the Blob
-   This file is expected to unique to the repository as it is metadata about the Blob.
+   This file thinks it is:  FUTURES in the SimpleSal/app-fsmDemo     repo root
+
+------------------------------------------
 
 =====================
+
 TruSoft Computing LLC
 
-    A description of our view of future features and fixes for:
-
-        SimpleSal App software, or, SimpleSal software
+ S~S  FUTURES metadata: "SimpleSal Time and Event Management" FSM demonstration software
 
 =====================
 
-~~~~~~~~~~~~~~~~~~~~~
+------------------------------------------
 
-Features, fixes, changes on the list of things we'd like to do:
+ S~S Features, fixes, changes on the list of things we'd like to do:
 
 * extend the ssIO model from pins and register to include DMA engines and interrupt controllers
+
 * add direct support for a variety of Host OSes: Windows App, linux App, Apple App
-* resolve, eliminate, or, describe a resolution for, each 'bugbugbug' in text files
 
-~~~~~~~~~~~~~~~~~~~~~
+* resolve, eliminate, or, describe a resolution for, each 'FIXIT' in text files
 
-Tasks and changes that are planned to end up described by a change log entry some day:
-
-* Example: the ssIO model's latency effect on virtual serial ports has not been stabilitized
-
-~~~~~~~~~~~~~~~~~~~~~
-
-Modifications to SimpleSal are encouraged.
-
-A user of SimpleSal should modify the files in the SimpleSal directory, within the App.
-
-The Time Line, or FUTURE, for SimpleSal includes entertaining pull requests from SimpleSal users.
-
-  ("entertaining" means "considering for integration into SimpleSal", not "makes me laugh out loud".
-
-~~~~~~~~~~~~~~~~~~~~~
+------------------------------------------
 
 =====================
 
- Copyright (c) 2025  TruSoft Computing LLC.  All Rights Reserved.
+ Copyright (c) 2026  TruSoft Computing LLC.  All Rights Reserved.
