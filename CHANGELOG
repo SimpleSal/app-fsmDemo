@@ -16,6 +16,47 @@ TruSoft Computing LLC
 
 ------------------------------------------
 
+ GitHub username                SimpleSal
+
+   repository                   app-fsmDemo
+
+     branch                     main-app-fsmDemo
+
+       label on branch          publish-261016
+
+ Date of Publishment            October 16, 2026
+
+ TSC LLC Version identifier     261016
+
+ Human version identifier       v1.0.0
+
+------------------------------------------
+
+    SimpleSal Soft Open publishment
+
+  This publishment implements the changes required to transition from the state of
+      big 'D', "Developing software" to the state of big 'P', "Publishing software".
+
+  Published software is coherent within the managed object or Blob.  Coherence means
+  the contents of the Blob in all forms (source files, algorithms, help documents)
+  relate to this instance of the software being published, using the same concepts.
+
+------------------------------------------
+
+ * This is most complex use of ssTEA and ssUI to date;
+      the App is a tool for development and test.
+
+ * As a test vehicle, the software implements functioning examples
+      Apps and device emulation using ssTEA Events and Agency FSMs.
+
+------------------------------------------
+
+=====================
+
+ S~S Changes to a repository have been published by SimpleSal
+
+------------------------------------------
+
  GitHub username            SimpleSal
 
    repository               app-fsmDemo
