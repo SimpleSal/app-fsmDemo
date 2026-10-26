@@ -1,10 +1,6 @@
 
    This file believes that this file is:   RELEASE    in the app-fsmDemo repo root
 
-   TSC LLC adopts the long-time convention that software is published as a "release" of the
-   content to someone else, and so descriptions of the contents being published are described
-   as "release notes".  The "future someone else" is usually the same person as the publisher.
-
 ------------------------------------------
 
 =====================
@@ -19,38 +15,23 @@ TruSoft Computing LLC
 
 ------------------------------------------
 
- GitHub username                SimpleSal
+ GitHub username            SimpleSal
 
-   repository                   app-fsmDemo
+   repository               app-fsmdemo
 
-     branch                     main-app-fsmDemo
+     branch                 main-app-fsmdemo
 
-       label on branch          publish-261016
+       tag on branch        publish-261026
 
- Date of Publishment            October 16, 2026
+ Date of Publishment        October 26, 2026
 
- TSC LLC Version identifier     261016
+ TSC LLC Version Identifier 261026
 
- Human version identifier       v1.0.0
-
-------------------------------------------
-
-    SimpleSal Soft Open publishment
-
-  This publishment implements the changes required to transition from the state of
-      big 'D', "Developing software" to the state of big 'P', "Publishing software".
-
-  Published software is coherent within the managed object or Blob.  Coherence means
-  the contents of the Blob in all forms (source files, algorithms, help documents)
-  relate to this instance of the software being published, using the same concepts.
+ Human version Identifier   v1.0.1
 
 ------------------------------------------
 
- * This is most complex use of ssTEA and ssUI to date;
-      the App is a tool for development and test.
-
- * As a test vehicle, the software implements functioning examples
-      Apps and device emulation using ssTEA Events and Agency FSMs.
+ S~S  Release notes version 261026: formal publishment of SimpleSal v1.0
 
 ------------------------------------------
 
